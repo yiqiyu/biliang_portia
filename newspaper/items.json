@@ -1,0 +1,103 @@
+{
+    "829d-4156-b4ef": {
+        "fields": {
+            "be0e-46ba-b0cd": {
+                "id": "be0e-46ba-b0cd", 
+                "name": "title", 
+                "required": true, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "63d8-447a-894a": {
+                "id": "63d8-447a-894a", 
+                "name": "content", 
+                "required": true, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "cb1a-43a7-8e89": {
+                "id": "cb1a-43a7-8e89", 
+                "name": "src_published_at", 
+                "required": false, 
+                "type": "date", 
+                "vary": false
+            }, 
+            "6c60-462f-9a78": {
+                "id": "6c60-462f-9a78", 
+                "name": "page_name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "ab8b-4a24-98d2": {
+                "id": "ab8b-4a24-98d2", 
+                "name": "author", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "415b-45b3-8d18": {
+                "id": "415b-45b3-8d18", 
+                "name": "abstract", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "bab1-46e3-ac0f": {
+                "id": "bab1-46e3-ac0f", 
+                "name": "published_at", 
+                "required": false, 
+                "type": "date", 
+                "vary": false
+            }, 
+            "b4dd-45db-957b": {
+                "id": "b4dd-45db-957b", 
+                "name": "media", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "e657-4f51-8b25": {
+                "id": "e657-4f51-8b25", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "paper"
+    }, 
+    "05c1-476b-9f4c": {
+        "fields": {
+            "deab-4c3c-9da7": {
+                "id": "deab-4c3c-9da7", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "c2a5-4a0d-8167": {
+                "id": "c2a5-4a0d-8167", 
+                "name": "abstract", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "8da9-4af4-8ff7": {
+                "id": "8da9-4af4-8ff7", 
+                "name": "content", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "4528-40bb-9ef1": {
+                "id": "4528-40bb-9ef1", 
+                "name": "time", 
+                "required": false, 
+                "type": "date", 
+                "vary": false
+            }
+        }, 
+        "name": "--1"
+    }
+}

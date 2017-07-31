@@ -1,0 +1,159 @@
+{
+    "extractors": {}, 
+    "id": "f005-4598-9d6e", 
+    "name": "f005-4598-9d6e", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "d975-44b0-9aa3", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "829d-4156-b4ef", 
+                    "selector": "#content", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "d975-44b0-9aa3", 
+                    "data": {
+                        "df47-4af7-a694": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "be0e-46ba-b0cd", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8c6f-43c4-81ab", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#content_div"
+                    ], 
+                    "container_id": "d975-44b0-9aa3", 
+                    "data": {
+                        "c784-4172-9e8f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "63d8-447a-894a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "659d-44f2-9d4e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .art > .para", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" art \")]/*[contains(concat(\" \", @class, \" \"), \" para \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".d_d"
+                    ], 
+                    "container_id": "d975-44b0-9aa3", 
+                    "data": {
+                        "d388-418b-b9d6": {
+                            "attribute": "content", 
+                            "extractors": [
+                                "cd18-4435-bc39"
+                            ], 
+                            "field": "cb1a-43a7-8e89", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4157-40fd-b593", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > .d_t_b > .d_d", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/*[contains(concat(\" \", @class, \" \"), \" d_t_b \")]/*[contains(concat(\" \", @class, \" \"), \" d_d \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h5:nth-child(3)"
+                    ], 
+                    "container_id": "d975-44b0-9aa3", 
+                    "data": {
+                        "5816-4b6f-980c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "415b-45b3-8d18", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3759-4cef-bbb9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > h5:nth-child(3)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/h5[3]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h5:nth-child(5)"
+                    ], 
+                    "container_id": "d975-44b0-9aa3", 
+                    "data": {
+                        "dd3e-4fa2-868e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ab8b-4a24-98d2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "142b-4381-a515", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#content > h5:nth-child(5)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"content\"]/h5[5]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "829d-4156-b4ef", 
+    "spider": "epaper.hezeribao.com", 
+    "url": "http://epaper.hezeribao.com/shtml/hzrb/20170727/372450.shtml", 
+    "version": "0.13.1"
+}

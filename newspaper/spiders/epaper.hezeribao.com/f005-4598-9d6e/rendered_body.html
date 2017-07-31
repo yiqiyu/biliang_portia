@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>建设和谐美丽幸福新菏泽</title>
+<meta name="Keywords" content="菏泽日报,牡丹晚报">
+<meta name="author" content="菏泽日报社">
+<meta name="Description" content="">
+<link rel="stylesheet" type="text/css" href="/Public/Css/index/main.css" media="all">
+<link rel="stylesheet" type="text/css" href="/Public/Css/index/article.css" media="all">
+<link id="huanfu" rel="stylesheet" type="text/css" href="/Public/Css/index/list1.css" media="all">
+<script src="http://push.zhanzhang.baidu.com/push.js"></script><script type="text/javascript" src="/Public/Js/index/jQuery_1.7.2.min.js"></script>
+<script src="/Public/Js/index/jquery-1.2.6.pack.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Public/Js/index/article.js"></script>
+<script type="text/javascript" src="/Public/Js/index/list.js"></script>
+<script type="text/javascript" src="/Public/Js/index/calender_nl.js"></script>
+<script language="javascript" src="/Public/Js/floatPic.js" type="text/javascript"></script>
+
+
+<script src="/index.php?s=/index/checkRead&amp;type=3&amp;paperid=7777&amp;verid=76377&amp;title=建设和谐美丽幸福新菏泽" type="text/javascript"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	var $aid = '372450';
+	$.getJSON('/index.php?s=/index/getPlcontent',{aid:$aid},function(json){	
+		// alert(json.info);
+         if (json.data==1) {
+		 $("#pinglun_article").html(json.info);
+		 }
+		 else
+		 	{ alert(json.data);}
+	});
+	
+	$.getJSON('/index.php?s=/index/getLogin',{aid:$aid},function(json){	
+
+		$("#uname").val(json.data);   
+	});
+
+	$.getJSON('/index.php?s=/index/getPlnum',{aid:$aid},function(json){	
+
+		$("#plnum").html(json.info);   
+		if(json.data>0)	$("#linka").attr("href","/index.php?s=/index/getPingLun&pid=372450"); 
+		
+	});
+});
+
+</script>
+<script src="http://bdimg.share.baidu.com/static/js/logger.js?cdnversion=417009"></script><link href="http://bdimg.share.baidu.com/static/css/bdsstyle.css?cdnversion=20131219" rel="stylesheet" type="text/css"></head>
+<body><iframe frameborder="0" style="display: none;"></iframe><div id="bdshare" style="right: 0px; top: 97px; position: fixed; height: 330px; overflow: hidden;"><img src="http://bdimg.share.baidu.com/static/images/r3.gif" alt="" style="float:left;margin-top:58px;"><iframe id="bdsIfr" style="position:absolute;display:none;z-index:9999;" frameborder="0"></iframe><div id="bdshare_m" style="display: none; left: 24px;"><div id="bdshare_m_c"><h6>分享到</h6><ul><li><a href="#" class="bds_mshare mshare">一键分享</a></li><li><a href="#" class="bds_qzone qqkj">QQ空间</a></li><li><a href="#" class="bds_tsina xlwb">新浪微博</a></li><li><a href="#" class="bds_bdysc bdysc">百度云收藏</a></li><li><a href="#" class="bds_renren rrw">人人网</a></li><li><a href="#" class="bds_tqq txwb">腾讯微博</a></li><li><a href="#" class="bds_bdxc bdxc">百度相册</a></li><li><a href="#" class="bds_more">更多...</a></li></ul><p><a href="#" class="goWebsite">百度分享</a></p></div></div></div>
+<a name="gotop"></a>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta name="Keywords" content="菏泽日报,牡丹晚报">
+<meta name="author" content="菏泽日报社">
+<meta name="Description" content="">
+<link rel="stylesheet" type="text/css" href="/Public/Css/index/main.css" media="all">
+<link rel="stylesheet" type="text/css" href="/Public/Css/index/list1.css" media="all">
+<link rel="stylesheet" type="text/css" href="/Public/Css/index/verlist.css" media="all">
+<link rel="stylesheet" type="text/css" href="/Public/colorbox/colorbox.css" media="all">
+<link id="huanfu" rel="stylesheet" type="text/css" href="" media="all">
+<script type="text/javascript" src="/Public/Js/index/jQuery_1.7.2.min.js"></script>
+<script type="text/javascript" src="/Public/Js/index/list.js" charset="utf-8"></script>
+<script type="text/javascript" src="/Public/Js/index/calender_nl.js"></script>
+<script type="text/javascript" src="/Public/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".iframe").colorbox({iframe:true, width:"450px", height:"450px"});
+	$.getJSON('/index.php?s=/user/cheklg',{type:1},function(json){
+				if(json.data==1)
+				{
+					$("#login_d").show();
+					$("#login_e").hide();
+					$("#divmessage").html(json.info);
+					
+				}else{
+					$("#login_e").show();
+					$("#login_d").hide();
+
+				}
+			});	
+});
+</script><script language="javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+
+
+
+<div id="header">
+  <div class="head">
+    <div class="huanfu" style="width:300px;float:left;">
+      <div style="float:left; margin-top:5px;"> </div>
+    </div>
+    <form action="http://epaper.hezeribao.com/index.php?s=/index/search" id="search" method="post">
+      <div id="login_d" style="width: 103px;line-height: 40px;margin-top: 2px; padding-left:5px; font-size:20px;background:url(/Public/Images/index/background_02.png) repeat-x; display:none"> <span id="divmessage"></span> </div>
+      <div id="login_e" style="width: 100px;line-height: 40px;margin-top: 2px; padding-left:5px; font-size:20px"> <a class="iframe cboxElement" href="/index.php?s=/user/index&amp;type=0" title="登陆" style="width: 33px;height: 18px;margin: 13px 0 0 15px;"></a> <a class="iframe cboxElement" href="http://epaper.hezeribao.com/index.php?s=/user/index&amp;type=1" title="注册" style="width: 33px;height: 18px;margin: 13px 0 0 15px;"></a> </div>
+      <div id="key">
+        <input type="text" name="keyWord" id="keyWord">
+      </div>
+      <input type="submit" value=" " id="searchSub" name="searchSub">
+    <input type="hidden" name="__hash__" value="4841c093fb9c0fd6a70429383d87d880"></form>
+    <a href="http://epaper.hezeribao.com/" id="logo"><img src="/Public/Images/index/default.png" alt="logo" onerror="javascript:this.src='/Public/Images/index/default.png'"></a>
+    <!--<p class="ad">
+	<strong id="todayTime"></strong></span>
+	</p>-->
+    <div class="clear"></div>
+  </div>
+</div>
+<!--header ends here--> 
+<div id="nav">
+	<div class="wraper">
+		<ul class="nav">
+			<li class="li"><a href="http://epaper.hezeribao.com/shtml/index_hzrb.shtml">首页</a></li>
+            <li class="li"><a href="http://epaper.hezeribao.com/shtml/index_hzrb.shtml">菏泽日报</a></li><li class="li"><a href="http://epaper.hezeribao.com/shtml/index_mdwb.shtml">牡丹晚报</a></li>             			<li class="navLi"><a class="navA" href="#">版面导航</a>
+				<div class="navBox">
+					<ul>
+					 <li><a href="http://epaper.hezeribao.com/shtml/hzrb/20170727/vA1.shtml" target="_top">A1:要闻</a></li>
+						<li><a href="http://epaper.hezeribao.com/shtml/hzrb/20170727/vA2.shtml" target="_top">A2:时政新闻</a></li>
+						<li><a href="http://epaper.hezeribao.com/shtml/hzrb/20170727/vA3.shtml" target="_top">A3:时事新闻</a></li>
+						<li><a href="http://epaper.hezeribao.com/shtml/hzrb/20170727/vA4.shtml" target="_top">A4:民生·广告</a></li>
+						</ul><ul>					</ul>
+					<div class="clear"></div>
+				</div>
+			</li>
+			<li class="li"><a href="http://epaper.hezeribao.com/shtml/hzrb/20170727/vlist.shtml" target="_top">版面概览</a></li>
+			<li class="li"><a href="http://epaper.hezeribao.com/index.php?s=/index/oldpaper/ptype/hzrb/papername/菏泽日报" target="_top">过往期刊</a></li>
+			
+			<li class="dateSearch">日期查询：</li>
+
+			<li class="dateLi"><a class="dateA" href="javascript:;">2017年07月27日</a>
+				<div class="dateBox">
+					<iframe src="http://epaper.hezeribao.com/shtml/hzrb/calendar.shtml" width="224" height="234" scrolling="no" frameborder="0"></iframe>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div><!--nav ends here--> 
+<div id="main">
+	<div id="paperPage">
+		<img style="BORDER-TOP-WIDTH: 1px; width:450px;height:640px;BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px" src="/paperdata/hzrb/20170727/b_page_01.jpg" onerror="javascript:this.src='/Public/Images/index/default.jpg'">
+		<a href="/shtml/hzrb/20170727/372445.shtml" target="_top" class="selectBox" style="top: 121px; left: 8px; width: 290px; height: 107px; opacity: 0.01;" title="我市精心描画新旧动能转换“施工图”" alt="372445"></a><a href="/shtml/hzrb/20170727/372446.shtml" target="_top" class="selectBox" style="top: 486px; left: 9px; width: 214px; height: 142px; opacity: 0.01;" title="加大监督执纪问责力度 着力维护群众切身利益" alt="372446"></a><a href="/shtml/hzrb/20170727/372447.shtml" target="_top" class="selectBox" style="top: 239px; left: 83px; width: 214px; height: 207px; opacity: 0.01;" title="图片新闻" alt="372447"></a><a href="/shtml/hzrb/20170727/372448.shtml" target="_top" class="selectBox" style="top: 461px; left: 230px; width: 214px; height: 167px; opacity: 0.01;" title="转型升级新典范产城融合谱华章" alt="372448"></a><a href="/shtml/hzrb/20170727/372449.shtml" target="_top" class="selectBox" style="top: 23px; left: 235px; width: 206px; height: 78px; opacity: 0.01;" title="副省长王随莲来菏调研“河长制”工作推进情况" alt="372449"></a><a href="/shtml/hzrb/20170727/372450.shtml" target="_top" class="selectBox" style="top: 121px; left: 309px; width: 133px; height: 324px; opacity: 0.01;" title="建设和谐美丽幸福新菏泽" alt="372450"></a>		<div class="paging">
+			<p class="pgUp">第A1版：要闻</p>
+			
+			<p class="pgDown"><a href="/shtml/hzrb/20170727/vA2.shtml" target="_top" alt="下一版:时政新闻" title="下一版:时政新闻">下一版&gt;</a></p>
+			<p class="pgDown"></p>
+			
+			
+			<div class="clear"></div>
+		</div>
+		<div class="download">
+			<div class="dl">
+				<a href="/paperdata/hzrb/20170727/hzrb_20170727.exe" class="A1" title="离线下载"></a>
+				<!--<a href="javascript:;" class="A2" onclick="gourl('/pdf/hzrb/20170727/A1.pdf','_blank')"></a>-->
+				<a href="/paperdata/hzrb/20170727/index.htm" class="A3" title="PDF阅读"></a>
+				<a href="/index.php?s=/index/printimg/t/hzrb/d/20170727/url/b_page_01.jpg" class="A4" title="打印版图"></a>
+				<div class="clear"></div>
+			</div>
+			
+			
+		</div>
+	</div>
+	<div id="content">
+		<div class="tit">
+
+			<span class="yuan" title="默认字体大小"></span>
+			<span class="xiao" title="缩小字体"></span>
+			<span class="da" title="放大字体"></span>
+		</div>
+		<div class="d_t_b">
+			<span class="d_d">日期:[2017年07月27日]</span>
+			<span class="d_t">-- 菏泽日报 --</span>
+			<span class="d_b">版次:[A1]</span>
+			<div class="clear"></div>
+		</div>
+		<h5>学习宣传贯彻省第十一次党代会精神系列评论之四</h5>
+		<h1>建设和谐美丽幸福新菏泽</h1>
+		<h5>本报评论员</h5>
+		<div class="cutline"></div>
+		<div class="art" id="art">
+						<div class="para" id="content_div" style="text-indent: 2em; height: 280px;">
+				　　　　　　　坚持以人民为中心的发展思想,实现好、维护好、发展好最广大人民根本利益是发展的根本目的。我们一定要按照省委要求，认真做好民生工作，大力发展社会事业，着力解决好群众关心的就业、社保、教育、医疗、住房等实际问题，切实维护好人民群众的切身利益。要切实肩负起促一方发展、保一方平安的政治责任，努力建设更高水平的平安菏泽、幸福菏泽。<br>　　    不断增进民生福祉。建设经济文化强市,民生改善是最真切、最生动、最温暖的诠释。要按照人人参与、人人尽力、人人享有的要求,织密扎牢民生保障网,提升公共服务水平,使改革发展成果更多更公平惠及全市人民。坚决打赢脱贫攻坚战，创新扶贫思路,拓展扶贫路径,促进扶贫资源精准配置、高效使用,用绣花功夫做好精准脱贫工作。加大重点地区扶贫力度,特别是确保如期全面完成黄河滩区群众脱贫与迁建工作,衔接好各级对口支援、东西部扶贫协作和省内扶贫协作。按期完成脱贫攻坚是重大政治任务,是市委对全市人民的庄严承诺,必须以更大决心、更大力度确保实现这一目标,确保脱贫得到群众认可、经得起历史检验,和全省人民一道奔小康的路上决不能让一个人掉队!<br>　　    努力办好人民满意的教育。深化基础教育综合改革,推进义务教育均衡提升,着力实现基本公共教育服务均等化。特别要拿出足够的精力发展教育事业，下大力做好“全面改薄”、破解城镇中小学校大班额等工作。完善现代职业教育体系,培养高素质劳动者和技术技能人才。加快发展民办教育,办好特殊教育和继续教育。加大教育投入,加快推进教育现代化,使更多孩子成就梦想、更多家庭实现希望。<br>　　    全方位提高人民群众安全感。加强和创新社会治理,是人民安居乐业、社会安定有序、国家长治久安的重要保障。要加强和改善党对政法工作的领导,着力提高社会治理能力,努力建设更高水平的平安菏泽，构建全民共建共享的社会治理格局。完善党委领导、政府主导、社会协同、公众参与、法治保障的社会治理体制,大力改进政府治理方式,完善公众参与机制,实现政府治理和社会调节、居民自治良性互动。加快社会信用体系建设,切实解决执行难问题,让守信者一路畅通,让失信者寸步难行。<br>　　    加强社会治安综合治理。各级党委要健全落实社会治安综合治理领导责任制,切实肩负起促一方发展、保一方平安的政治责任。健全立体化、信息化社会治安防控体系,提高对各种矛盾问题的预测预警预防能力,依法严厉打击各类违法犯罪活动。坚持重大决策社会稳定风险评估制度,实施阳光信访、责任信访、法治信访,完善社会矛盾排查调处化解综合机制,坚持教育转化、帮扶解困和重点管控相结合,及时妥善有效处理各类矛盾问题。强化城乡社区治理,建好用好基层综合服务管理平台,提高网格化管理、信息化支撑、社会化服务水平。健全公共安全体系。坚持党政同责、一岗双责、失职追责,深化安全生产领域改革,建立健全风险管控和隐患排查治理双重预防机制,坚决遏制重特大事故发生。健全综合防灾减灾体系,全面提升防灾减灾救灾能力。深化食安菏泽建设,把好饮食用药安全的每一道关口,切实保障人民群众“舌尖上的安全”。<br>　　    大力改善环境质量。实行最严格的环境保护制度,建立常态化跨区域污染治理联防联控机制,全面推进大气、水、土壤等污染防治,让人民群众在良好环境中生产生活。坚决打好蓝天保卫战,有效遏制重污染天气频发态势,努力使蓝天一年比一年多起来。倡导推广绿色消费,强化公民环保意识,推动形成节约适度、绿色低碳、文明健康的生活方式和消费模式。完善约束和激励并举的生态文明制度体系,加大环保督察力度,严厉惩处环境违法违规行为,决不以牺牲生态环境为代价换取一时一地的经济增长,让鲁西南大地天更蓝、水更清、环境更优美!&nbsp;
+			</div>
+		<!--	 <div style='font-size:14px; font-weight:bold;line-height:20px;margin-left:20px;' id='ping'>评论</div>
+		      <ul id="pinglun_article" style='font-size:12px;border:1px solid #e5e5cb;padding:10px;'>	       
+		     </ul>
+			 <div class="pingfen">
+        <p><a href="#" id="linka"  title="点击查看所有评论">已有<span id="plnum" style="padding:0 10px; font-size:14px; color:#f00"></span>条评论</a></p>
+        <form action="/index.php?s=/index/pingLun" method="post" name="myform" id="myform"  enctype="multipart/form-data">
+        	<input name="aid" value="372450"  type="hidden" id="aid"/>
+        	<input name="uurl" value="" id="uurl"  type="hidden" />
+			<textarea id="Content" name="content" style="width:426px;height:120px; border:#09F 1px dashed"></textarea>
+            <div style="width:430px">
+            	<span style="float:left">
+            	用户名：<input name="usename" type="text" style="width:100px" id="uname" value="匿名" onfocus="this.select()"/> 
+            	&nbsp;&nbsp; <span style="color:#aaa">(不填默认为匿名)</span>
+                </span>
+                <a class="fabu" id="fabu">发布</a>
+            </div>-->
+		<input type="hidden" name="__hash__" value="fcbc6d454f7a81f99fb63829382c990b">
+        </div>	
+		</div>
+	
+		
+	</div>
+	
+	<div class="clear"></div>
+<!--main ends here-->
+<div id="footer">
+	<div class="line"></div>
+<div class="wraper">
+<p class="copy" id="footer1"><a href="http://epaper.hezeribao.com/fenlei/" style="display:none;">生活分类</a><a href="http://epaper.hezeribao.com/shtml/index_hzrb.shtml">菏泽日报</a>｜<a href="http://epaper.hezeribao.com/shtml/index_mdwb.shtml">牡丹晚报</a>｜本站投诉建议qq:451652942</p>
+<p class="copy">Copyright© 1997-2014 by .all rights reserved</p>
+</div>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script><script type="text/javascript" src="/Public/Js/index/footer.js"></script> 
+</div>
+<div id="divfocus" style="word-break: break-all;"></div>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;mini=1&amp;img=3&amp;pos=right&amp;uid=2444635" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=417009"></script>
+
+<script type="text/javascript">
+		var bds_config = {"bdTop":97};
+		document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script><a name="gobtm"></a>
+<div class="go">
+	<a title="返回顶部" class="top" href="#gotop"></a>
+	<a title="查看所有评论" class="bottom" href="/index.php?s=/index/getPingLun"></a>
+</div>
+
+
+
+<script language="javascript" type="text/javascript">
+(function(){
+	$(".selectBox").mouseover(function(e){
+		  $(this).css({'opacity':0.3});	
+		  offset = $(this).offset();
+		  $("#divfocus").css({'top':parseInt(offset.top)+'px','left':parseInt(offset.left+$(this).outerWidth())+'px'}).show().html($(this).attr("title"));
+	});
+	$(".selectBox").mouseout(function(e){
+		  $(this).css({'border':'0','opacity':'0'});
+		  $("#divfocus").hide().html("");
+	});	
+	$(".selectBox").css({'opacity':0.01});	
+	$("#fabu").click(function(){
+		$("#uurl").val(window.location.href);
+		if($("#Content").val()=="" || $("#Content").val()=="请填写评论") 
+		{
+			$("#Content").val("请填写评论");
+			$("#Content").focus();
+			return false;	
+		}
+		$("#myform").submit();	
+	});
+	
+})()
+
+function div_height(){
+	var o_con = document.getElementById("content_div");
+	if(o_con.offsetHeight<"280")
+	{
+		o_con.style.height = "280px";
+	}
+}
+div_height();
+</script><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button id="cboxPrevious"></button><button id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>

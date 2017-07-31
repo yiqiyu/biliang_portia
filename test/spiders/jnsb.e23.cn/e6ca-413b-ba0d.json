@@ -1,0 +1,109 @@
+{
+    "extractors": {}, 
+    "id": "e6ca-413b-ba0d", 
+    "name": "page", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4f14-44f4-b872", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7541-49c8-9630", 
+                    "selector": ".detail", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h2:nth-child(2)"
+                    ], 
+                    "container_id": "4f14-44f4-b872", 
+                    "data": {
+                        "697b-4f68-9a72": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1b16-48ed-83ad", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0439-4921-a3f9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".detail > h2", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" detail \")]/h2"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".p3"
+                    ], 
+                    "container_id": "4f14-44f4-b872", 
+                    "data": {
+                        "78c9-42cf-ad5c": {
+                            "attribute": "content", 
+                            "extractors": [
+                                "6fc2-4543-a671"
+                            ], 
+                            "field": "2838-4ae1-a017", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e30c-4937-8791", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".detail > .pageInfo > .p3", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" detail \")]/*[contains(concat(\" \", @class, \" \"), \" pageInfo \")]/*[contains(concat(\" \", @class, \" \"), \" p3 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "p"
+                    ], 
+                    "container_id": "4f14-44f4-b872", 
+                    "data": {
+                        "f1a9-4406-ba30": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8faf-406a-9811", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2222-4b3c-87a2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".detail > .article > p", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" detail \")]/*[contains(concat(\" \", @class, \" \"), \" article \")]/p"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7541-49c8-9630", 
+    "spider": "jnsb.e23.cn", 
+    "url": "http://jnsb.e23.cn/shtml/jnsb/20170727/1670929.shtml", 
+    "version": "0.13.1"
+}

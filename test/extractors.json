@@ -1,0 +1,10 @@
+{
+    "d59d-4c65-9b56": {
+        "id": "d59d-4c65-9b56", 
+        "regular_expression": "(\\d{4}\u5e74\\d{2}\u6708\\d{2}\u65e5)"
+    }, 
+    "6fc2-4543-a671": {
+        "id": "6fc2-4543-a671", 
+        "type_extractor": "date"
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "extractors": {}, 
+    "id": "7f7d-4fc9-bb79", 
+    "name": "page", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "3b04-42c0-954f", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7541-49c8-9630", 
+                    "selector": "#ScroLeft", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "span:nth-child(2)"
+                    ], 
+                    "container_id": "3b04-42c0-954f", 
+                    "data": {
+                        "4d4b-4e51-bd69": {
+                            "attribute": "content", 
+                            "extractors": [
+                                "d59d-4c65-9b56"
+                            ], 
+                            "field": "2838-4ae1-a017", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bcd5-480e-ab49", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#ScroLeft > .newsdetatit > p:nth-child(4) > span:nth-child(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"ScroLeft\"]/*[contains(concat(\" \", @class, \" \"), \" newsdetatit \")]/p[4]/span[2]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h3"
+                    ], 
+                    "container_id": "3b04-42c0-954f", 
+                    "data": {
+                        "1824-48a3-92ea": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1b16-48ed-83ad", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5403-45ef-8d1d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#ScroLeft > .newsdetatit > h3", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"ScroLeft\"]/*[contains(concat(\" \", @class, \" \"), \" newsdetatit \")]/h3"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".newsdetatext"
+                    ], 
+                    "container_id": "3b04-42c0-954f", 
+                    "data": {
+                        "62c4-4938-bdd5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8faf-406a-9811", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bf2a-4923-b136", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#ScroLeft > .newsdetatext", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"ScroLeft\"]/*[contains(concat(\" \", @class, \" \"), \" newsdetatext \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7541-49c8-9630", 
+    "spider": "wb.sznews.com", 
+    "url": "http://wb.sznews.com/PC/content/201707/27/c127014.html", 
+    "version": "0.13.1"
+}

@@ -1,0 +1,19 @@
+{
+    "allowed_domains": [], 
+    "exclude_patterns": [], 
+    "follow_patterns": [
+        "/PC/content"
+    ], 
+    "id": "wb.sznews.com", 
+    "js_disable_patterns": [], 
+    "js_enable_patterns": [], 
+    "js_enabled": false, 
+    "links_to_follow": "auto", 
+    "respect_nofollow": false, 
+    "start_urls": [
+        {
+            "url": "http://wb.sznews.com/PC/layout/201707/27/colA01.html", 
+            "type": "url"
+        }
+    ]
+}

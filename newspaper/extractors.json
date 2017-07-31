@@ -1,0 +1,10 @@
+{
+    "cd18-4435-bc39": {
+        "id": "cd18-4435-bc39", 
+        "regular_expression": "(\\d{4}\u5e74\\d{1,2}\u6708\\d{1,2}\u65e5)"
+    }, 
+    "4794-405a-9ce6": {
+        "id": "4794-405a-9ce6", 
+        "type_extractor": "date"
+    }
+}

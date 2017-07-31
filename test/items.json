@@ -1,0 +1,43 @@
+{
+    "7541-49c8-9630": {
+        "default": true, 
+        "fields": {
+            "4edd-4221-a2b3": {
+                "id": "4edd-4221-a2b3", 
+                "name": "published_At", 
+                "required": false, 
+                "type": "date", 
+                "vary": false
+            }, 
+            "8faf-406a-9811": {
+                "id": "8faf-406a-9811", 
+                "name": "content", 
+                "required": true, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "2838-4ae1-a017": {
+                "id": "2838-4ae1-a017", 
+                "name": "time", 
+                "required": true, 
+                "type": "date", 
+                "vary": false
+            }, 
+            "1b16-48ed-83ad": {
+                "id": "1b16-48ed-83ad", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "7699-4ad3-831f": {
+                "id": "7699-4ad3-831f", 
+                "name": "ll", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "articles"
+    }
+}

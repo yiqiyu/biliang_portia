@@ -1,0 +1,22 @@
+{
+    "allowed_domains": [], 
+    "exclude_patterns": [], 
+    "follow_patterns": [
+        "node_\\d{1,2}.htm", 
+        "content"
+    ], 
+    "id": "hnrb.hinews.cn", 
+    "js_disable_patterns": [], 
+    "js_enable_patterns": [
+        "content"
+    ], 
+    "js_enabled": true, 
+    "links_to_follow": "patterns", 
+    "respect_nofollow": false, 
+    "start_urls": [
+        {
+            "url": "http://hnrb.hinews.cn/html/2017-07/28/node_1.htm", 
+            "type": "url"
+        }
+    ]
+}

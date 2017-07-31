@@ -1,0 +1,20 @@
+{
+    "allowed_domains": [], 
+    "exclude_patterns": [], 
+    "follow_patterns": [
+        "\\d{3, 10}\\.shtml$", 
+        "\\w{2}\\d{2}\\.shtml$"
+    ], 
+    "id": "jnsb.e23.cn", 
+    "js_disable_patterns": [], 
+    "js_enable_patterns": [], 
+    "js_enabled": false, 
+    "links_to_follow": "patterns", 
+    "respect_nofollow": false, 
+    "start_urls": [
+        {
+            "url": "http://jnsb.e23.cn/shtml/jnsb/20170727/vA01.shtml", 
+            "type": "url"
+        }
+    ]
+}

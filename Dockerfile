@@ -5,7 +5,8 @@ COPY provision.sh /app/provision.sh
 COPY slybot/requirements.txt /app/slybot/requirements.txt
 COPY slyd/requirements.txt /app/slyd/requirements.txt
 COPY portia_server/requirements.txt /app/portia_server/requirements.txt
-RUN /app/provision.sh install_deps && \
+RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list && \
+    /app/provision.sh install_deps && \
     /app/provision.sh install_splash && \
     pip install -r /app/slybot/requirements.txt && \
     pip install -r /app/slyd/requirements.txt && \

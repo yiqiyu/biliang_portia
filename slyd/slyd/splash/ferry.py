@@ -403,7 +403,7 @@ class FerryServerProtocol(WebSocketServerProtocol):
         manager = SplashQNetworkAccessManager(
             request_middlewares=[],
             response_middlewares=[],
-            verbosity=defaults.VERBOSITY
+            verbosity=5
         )
         manager.setCache(None)
 
@@ -413,7 +413,7 @@ class FerryServerProtocol(WebSocketServerProtocol):
         self.factory[self].tab = PortiaBrowserTab(
             network_manager=manager,
             splash_proxy_factory=None,
-            verbosity=defaults.VERBOSITY,
+            verbosity=5,
             render_options=RenderOptions(data, defaults.MAX_TIMEOUT),
             visible=True,
         )

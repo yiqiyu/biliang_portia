@@ -4,4 +4,4 @@
 
 basepath=$(cd `dirname $0`; pwd)
 echo $basepath
-docker run -i -t --rm -v $basepath/projects:/app/data/projects:rw -v $basepath/slyd:/app/slyd:rw -p 9001:9001 new_portia ./app/docker/entry
+docker run -t --rm -v $basepath/projects:/app/data/projects:rw -v $basepath/slyd:/app/slyd:rw -p 9001:9001 new_portia ./app/docker/entry

@@ -36,3 +36,5 @@ docs/_build
 # Default Portia data directory
 slyd/slyd/data
 /data/
+
+daemon\.log
